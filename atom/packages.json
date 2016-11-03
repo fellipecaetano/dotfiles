@@ -1,0 +1,666 @@
+[
+	{
+		"name": "about",
+		"version": "1.5.0"
+	},
+	{
+		"name": "archive-view",
+		"version": "0.61.1"
+	},
+	{
+		"name": "atom-dark-syntax",
+		"version": "0.27.0",
+		"theme": "syntax"
+	},
+	{
+		"name": "atom-dark-ui",
+		"version": "0.51.0",
+		"theme": "ui"
+	},
+	{
+		"name": "atom-light-syntax",
+		"version": "0.28.0",
+		"theme": "syntax"
+	},
+	{
+		"name": "atom-light-ui",
+		"version": "0.43.0",
+		"theme": "ui"
+	},
+	{
+		"name": "autocomplete-atom-api",
+		"version": "0.10.0"
+	},
+	{
+		"name": "autocomplete-css",
+		"version": "0.11.1"
+	},
+	{
+		"name": "autocomplete-html",
+		"version": "0.7.2"
+	},
+	{
+		"name": "autocomplete-plus",
+		"version": "2.29.2"
+	},
+	{
+		"name": "autocomplete-snippets",
+		"version": "1.10.0"
+	},
+	{
+		"name": "autoflow",
+		"version": "0.27.0"
+	},
+	{
+		"name": "autosave",
+		"version": "0.23.1"
+	},
+	{
+		"name": "background-tips",
+		"version": "0.26.0"
+	},
+	{
+		"name": "base16-tomorrow-dark-theme",
+		"version": "1.1.0",
+		"theme": "syntax"
+	},
+	{
+		"name": "base16-tomorrow-light-theme",
+		"version": "1.1.1",
+		"theme": "syntax"
+	},
+	{
+		"name": "bookmarks",
+		"version": "0.39.0"
+	},
+	{
+		"name": "bracket-matcher",
+		"version": "0.82.0"
+	},
+	{
+		"name": "command-palette",
+		"version": "0.38.0"
+	},
+	{
+		"name": "deprecation-cop",
+		"version": "0.54.1"
+	},
+	{
+		"name": "dev-live-reload",
+		"version": "0.47.0"
+	},
+	{
+		"name": "encoding-selector",
+		"version": "0.21.0"
+	},
+	{
+		"name": "exception-reporting",
+		"version": "0.38.0"
+	},
+	{
+		"name": "file-icons",
+		"version": "1.7.14"
+	},
+	{
+		"name": "find-and-replace",
+		"version": "0.199.0"
+	},
+	{
+		"name": "fuzzy-finder",
+		"version": "1.0.5"
+	},
+	{
+		"name": "git-diff",
+		"version": "1.0.1"
+	},
+	{
+		"name": "go-to-line",
+		"version": "0.30.0"
+	},
+	{
+		"name": "grammar-selector",
+		"version": "0.48.1"
+	},
+	{
+		"name": "hyperclick",
+		"version": "0.0.0"
+	},
+	{
+		"name": "image-view",
+		"version": "0.57.0"
+	},
+	{
+		"name": "incompatible-packages",
+		"version": "0.26.1"
+	},
+	{
+		"name": "keybinding-resolver",
+		"version": "0.35.0"
+	},
+	{
+		"name": "language-babel",
+		"version": "2.27.1"
+	},
+	{
+		"name": "language-c",
+		"version": "0.51.3"
+	},
+	{
+		"name": "language-clojure",
+		"version": "0.20.0"
+	},
+	{
+		"name": "language-coffee-script",
+		"version": "0.46.1"
+	},
+	{
+		"name": "language-csharp",
+		"version": "0.12.1"
+	},
+	{
+		"name": "language-css",
+		"version": "0.36.1"
+	},
+	{
+		"name": "language-gfm",
+		"version": "0.85.0"
+	},
+	{
+		"name": "language-git",
+		"version": "0.12.1"
+	},
+	{
+		"name": "language-go",
+		"version": "0.42.0"
+	},
+	{
+		"name": "language-html",
+		"version": "0.44.1"
+	},
+	{
+		"name": "language-hyperlink",
+		"version": "0.16.0"
+	},
+	{
+		"name": "language-java",
+		"version": "0.17.0"
+	},
+	{
+		"name": "language-javascript",
+		"version": "0.110.0"
+	},
+	{
+		"name": "language-json",
+		"version": "0.18.0"
+	},
+	{
+		"name": "language-less",
+		"version": "0.29.3"
+	},
+	{
+		"name": "language-make",
+		"version": "0.21.1"
+	},
+	{
+		"name": "language-mustache",
+		"version": "0.13.0"
+	},
+	{
+		"name": "language-objective-c",
+		"version": "0.15.1"
+	},
+	{
+		"name": "language-perl",
+		"version": "0.34.0"
+	},
+	{
+		"name": "language-php",
+		"version": "0.37.0"
+	},
+	{
+		"name": "language-property-list",
+		"version": "0.8.0"
+	},
+	{
+		"name": "language-python",
+		"version": "0.43.1"
+	},
+	{
+		"name": "language-ruby",
+		"version": "0.68.5"
+	},
+	{
+		"name": "language-ruby-on-rails",
+		"version": "0.25.0"
+	},
+	{
+		"name": "language-sass",
+		"version": "0.46.0"
+	},
+	{
+		"name": "language-shellscript",
+		"version": "0.21.1"
+	},
+	{
+		"name": "language-source",
+		"version": "0.9.0"
+	},
+	{
+		"name": "language-sql",
+		"version": "0.20.0"
+	},
+	{
+		"name": "language-text",
+		"version": "0.7.1"
+	},
+	{
+		"name": "language-todo",
+		"version": "0.27.0"
+	},
+	{
+		"name": "language-toml",
+		"version": "0.18.0"
+	},
+	{
+		"name": "language-xml",
+		"version": "0.34.4"
+	},
+	{
+		"name": "language-yaml",
+		"version": "0.25.2"
+	},
+	{
+		"name": "line-ending-selector",
+		"version": "0.4.1"
+	},
+	{
+		"name": "link",
+		"version": "0.31.1"
+	},
+	{
+		"name": "linter-eslint",
+		"version": "7.2.2"
+	},
+	{
+		"name": "markdown-preview",
+		"version": "0.158.0"
+	},
+	{
+		"name": "metrics",
+		"version": "0.53.1"
+	},
+	{
+		"name": "notifications",
+		"version": "0.63.1"
+	},
+	{
+		"name": "nuclide",
+		"version": "0.141.0"
+	},
+	{
+		"name": "nuclide-adb-logcat",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-arcanist",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-blame",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-blame-provider-hg",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-blame-ui",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-buck",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-build",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-busy-signal",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-clang-atom",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-clipboard-path",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-code-format",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-code-highlight",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-console",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-current-working-directory",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-datatip",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-debugger-atom",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-debugger-hhvm",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-debugger-lldb-client",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-debugger-node",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-definition-hyperclick",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-definition-preview",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-definition-service",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-diagnostics-datatip-provider",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-diagnostics-store",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-diagnostics-ui",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-diff-view",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-distraction-free-mode",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-file-watcher",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-find-references",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-flow",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-format-js",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-fuzzy-filename-provider",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-gadgets",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-hack",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-hack-symbol-provider",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-health",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-hg-conflict-resolver",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-hg-repository",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-hhvm-toolbar",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-home",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-ios-simulator-logs",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-json",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-language-hack",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-navigation-stack",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-notifications",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-nux",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-objc",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-ocaml",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-open-filenames-provider",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-outline-view",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-python",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-quick-open",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-react-native",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-react-native-inspector",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-recent-files-provider",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-recent-files-service",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-related-files",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-remote-ctags",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-remote-projects",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-source-control-side-bar",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-test-runner",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-type-coverage",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-type-hint",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-ui",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-url-hyperclick",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-vcs-log",
+		"version": "0.0.0"
+	},
+	{
+		"name": "nuclide-working-sets",
+		"version": "0.0.0"
+	},
+	{
+		"name": "one-dark-syntax",
+		"version": "1.2.0",
+		"theme": "syntax"
+	},
+	{
+		"name": "one-dark-ui",
+		"version": "1.3.1",
+		"theme": "ui"
+	},
+	{
+		"name": "one-light-syntax",
+		"version": "1.2.0",
+		"theme": "syntax"
+	},
+	{
+		"name": "one-light-ui",
+		"version": "1.3.1",
+		"theme": "ui"
+	},
+	{
+		"name": "open-on-github",
+		"version": "1.0.1"
+	},
+	{
+		"name": "package-generator",
+		"version": "1.0.0"
+	},
+	{
+		"name": "settings-view",
+		"version": "0.235.1"
+	},
+	{
+		"name": "snippets",
+		"version": "1.0.2"
+	},
+	{
+		"name": "solarized-dark-syntax",
+		"version": "1.0.2",
+		"theme": "syntax"
+	},
+	{
+		"name": "solarized-light-syntax",
+		"version": "1.0.2",
+		"theme": "syntax"
+	},
+	{
+		"name": "spell-check",
+		"version": "0.67.1"
+	},
+	{
+		"name": "status-bar",
+		"version": "1.2.3"
+	},
+	{
+		"name": "styleguide",
+		"version": "0.45.2"
+	},
+	{
+		"name": "symbols-view",
+		"version": "0.112.0"
+	},
+	{
+		"name": "sync-settings",
+		"version": "0.7.2"
+	},
+	{
+		"name": "tabs",
+		"version": "0.96.0"
+	},
+	{
+		"name": "timecop",
+		"version": "0.33.1"
+	},
+	{
+		"name": "tree-view",
+		"version": "0.205.0"
+	},
+	{
+		"name": "turbo-javascript",
+		"version": "1.4.0"
+	},
+	{
+		"name": "update-package-dependencies",
+		"version": "0.10.0"
+	},
+	{
+		"name": "welcome",
+		"version": "0.34.0"
+	},
+	{
+		"name": "whitespace",
+		"version": "0.32.2"
+	},
+	{
+		"name": "wrap-guide",
+		"version": "0.38.1"
+	}
+]
