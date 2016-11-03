@@ -43,12 +43,6 @@
       "nuclide-clang-atom": false
       "nuclide-file-tree": false
       "nuclide-side-bar": false
-  "sync-settings":
-    _analyticsUserId: "8770dd91-18ad-4d81-9ec0-7099862b0d4b"
-    _lastBackupHash: "78eeefc2dcd5c7110c67b12582aaa8f0f4286e4f"
-    analytics: false
-    gistId: "676474d8cb000532e1b6b6116257b803"
-    personalAccessToken: "fd74c605f4f8d4a90974c4a1f961796dcb4d4613"
   "tree-view":
     hideIgnoredNames: true
   welcome:
