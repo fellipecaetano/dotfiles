@@ -1,2 +1,2 @@
 # dotfiles
-Scripts and configuration files for my OS X development environment.
+Scripts and configuration files for my macOS development environment.
