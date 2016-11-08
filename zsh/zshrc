@@ -5,6 +5,8 @@ SAVEHIST=5000
 bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
+
+zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}'
 zstyle :compinstall filename '/Users/felipe/.zshrc'
 
 autoload -Uz compinit
@@ -19,6 +21,7 @@ source $(brew --prefix)/share/antigen/antigen.zsh
 antigen theme steeef
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-history-substring-search
+antigen bundle zsh-users/zsh-autosuggestions
 antigen apply
 
 # History Substring Search
@@ -27,3 +30,7 @@ bindkey '^[[B' history-substring-search-down
 
 # Editor
 export EDITOR=emacs
+
+# Node
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
