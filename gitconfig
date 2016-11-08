@@ -1,6 +1,6 @@
 # This is Git's per-user configuration file.
 [user]
 	name = Fellipe Caetano
-
+	email = fellipe.caetano@dextra-sw.com
 [push]
 	default = simple
