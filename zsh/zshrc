@@ -13,8 +13,12 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+# Terminal
+export LANG=en_US.UTF-8
+
 # Ruby
 source /usr/local/share/chruby/chruby.sh
+source /usr/local/share/chruby/auto.sh
 
 # Antigen
 source $(brew --prefix)/share/antigen/antigen.zsh
