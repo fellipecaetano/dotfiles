@@ -17,12 +17,10 @@ compinit
 export LANG=en_US.UTF-8
 
 # Ruby
-brew install chruby
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
 
 # Antigen
-brew install antigen
 source $(brew --prefix)/share/antigen/antigen.zsh
 antigen theme steeef
 antigen bundle zsh-users/zsh-syntax-highlighting
