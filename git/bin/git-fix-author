@@ -5,10 +5,10 @@ source "$(git --exec-path)/git-sh-setup"
 while getopts "e:n:" option; do
     case option in
 	e)
-	    email=$OPTARG
+	    email=$option
 	    ;;
 	n)
-	    name=$OPTARG
+	    name=$option
 	    ;;
     esac
 done
