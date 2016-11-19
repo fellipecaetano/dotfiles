@@ -15,7 +15,10 @@ compinit
 
 # Terminal
 export LANG=en_US.UTF-8
+
+# Path
 export PATH=$(brew --prefix)/sbin:$PATH
+export PATH=$HOME/dotfiles/git/bin:$PATH
 
 # Ruby
 source /usr/local/share/chruby/chruby.sh
