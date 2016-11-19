@@ -3,15 +3,18 @@
 source "$(git --exec-path)/git-sh-setup"
 
 while getopts "e:n:" option; do
-    case option in
+    case $option in
 	e)
-	    email=$option
+	    email=$OPTARG
 	    ;;
 	n)
-	    name=$option
+	    name=$OPTARG
 	    ;;
     esac
 done
+
+echo "Email: $email"
+echo "Name: $name"
 
 git filter-branch --env-filter \
     'if [ "$GIT_AUTHOR_EMAIL" != "$email" ]; then
