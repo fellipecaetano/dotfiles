@@ -1,4 +1,3 @@
-(set-keyboard-coding-system nil)
 (global-linum-mode t) ;; Show line numbers
 (setq column-number-mode t) ;; Show column numbers
 
