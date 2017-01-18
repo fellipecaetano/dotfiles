@@ -21,12 +21,18 @@ export PATH=$(brew --prefix)/sbin:$PATH
 export PATH=$HOME/dotfiles/git/bin:$PATH
 
 # Ruby
-brew install chruby 2> /dev/null
-source /usr/local/share/chruby/chruby.sh
-source /usr/local/share/chruby/auto.sh
+if [ ! -f $(brew --prefix)/share/chruby/chruby.sh ]; then
+    brew install chruby
+fi
+
+source $(brew --prefix)/share/chruby/chruby.sh
+source $(brew --prefix)/share/chruby/auto.sh
 
 # Antigen
-brew install antigen 2> /dev/null
+if [ ! -f $(brew --prefix)/share/antigen/antigen.zsh ]; then
+    brew install antigen
+fi
+
 source $(brew --prefix)/share/antigen/antigen.zsh
 antigen theme steeef
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -42,6 +48,9 @@ bindkey '^[[B' history-substring-search-down
 export EDITOR=emacs
 
 # Node
-brew install nvm 2> /dev/null
+if [ ! -f $(brew --prefix)/opt/nvm/nvm.sh ]; then
+    brew install nvm
+fi
+
 export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
+. "$(brew --prefix)/opt/nvm/nvm.sh"
