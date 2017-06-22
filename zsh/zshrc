@@ -17,6 +17,7 @@ compinit
 export LANG=en_US.UTF-8
 
 # Path
+export PATH=$HOME/.local/bin:$PATH
 export PATH=$(brew --prefix)/sbin:$PATH
 export PATH=$HOME/dotfiles/git/bin:$PATH
 
