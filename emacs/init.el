@@ -50,3 +50,26 @@
 (require 'editorconfig)
 (editorconfig-mode 1)
 
+;; Custom modes
+(define-derived-mode git-commit-mode
+  text-mode "Git commit"
+  "Major mode for git commits")
+
+(define-derived-mode release-notes-mode
+  text-mode "Release notes"
+  "Major mode for release notes")
+
+(add-hook 'git-commit-mode-hook
+	  (lambda ()
+	    (auto-fill-mode)
+	    (setq-local fill-column 72)))
+
+(add-hook 'release-notes-mode-hook
+	  (lambda ()
+	    (auto-fill-mode)
+	    (setq-local fill-column 72)))
+
+;; Auto modes
+(add-to-list 'auto-mode-alist '("changelog" . release-notes-mode))
+(add-to-list 'auto-mode-alist '("COMMIT_EDITMSG" . git-commit-mode))
+
