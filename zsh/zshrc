@@ -46,7 +46,7 @@ bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
 # Editor
-export EDITOR=emacs
+export EDITOR=vim
 
 # Node
 if [ ! -f $(brew --prefix)/opt/nvm/nvm.sh ]; then
