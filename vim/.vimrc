@@ -1,7 +1,9 @@
 " UI Config
 set number " shows line
+set smartindent
 
 " Spaces & Tabs
+set shiftwidth=4
 set tabstop=4 " shows tabs as spaces
 set softtabstop=4 " inserts spaces when hitting <TAB>
 set expandtab " turns tabs into spaces
