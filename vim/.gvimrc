@@ -1,5 +1,6 @@
 " Colors
-colorscheme monokai
+colorscheme base16-twilight
 
 " UI Config
 set cursorline
+set guifont=Fira\ Mono:h14
