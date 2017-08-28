@@ -1,0 +1,4 @@
+set relativenumber
+nnoremap <Tab> %
+vnoremap <Tab> %
+nnoremap <leader>w <C-w>v<C-w>l

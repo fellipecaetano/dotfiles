@@ -50,3 +50,7 @@ let g:clang_auto_select=2
 let g:clang_complete_auto=0
 let g:clang_complete_copen=1
 let g:clang_close_preview=1
+
+" Filetypes
+autocmd BufReadPost fastlane/changelog set filetype=text
+autocmd BufReadPost fastlane/changelog set textwidth=78
