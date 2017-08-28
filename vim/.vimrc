@@ -25,9 +25,14 @@ set expandtab " turns tabs into spaces
 " Searching
 set incsearch " searches as you type
 set hlsearch " highlights search results
+nnoremap <Tab> %
+vnoremap <Tab> %
 
-" Leader shortcuts
+" Escape mappings
 inoremap jk <esc> " maps jk to <esc>
+
+" Windows
+nnoremap <leader>w <C-w>v<C-w>l
 
 " Pathogen
 execute pathogen#infect()
