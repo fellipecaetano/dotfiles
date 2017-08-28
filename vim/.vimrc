@@ -1,3 +1,4 @@
+
 " UI Config
 set number " shows line
 set smartindent
@@ -7,13 +8,14 @@ set showcmd
 
 " Completion menu
 inoremap <expr> <Esc>      pumvisible() ? "\<C-e>" : "\<Esc>"
-imap <expr> <CR>       pumvisible() ? "\<C-y>" : "\<Plug>delimitMateCR"
+imap     <expr> <CR>       pumvisible() ? "\<C-y>" : "\<Plug>delimitMateCR"
 inoremap <expr> <Down>     pumvisible() ? "\<C-n>" : "\<Down>"
 inoremap <expr> <Up>       pumvisible() ? "\<C-p>" : "\<Up>"
 inoremap <expr> <PageDown> pumvisible() ? "\<PageDown>\<C-p>\<C-n>" : "\<PageDown>"
 inoremap <expr> <PageUp>   pumvisible() ? "\<PageUp>\<C-p>\<C-n>" : "\<PageUp>"
-inoremap <expr> <Tab>      pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <S-Tab>    pumvisible() ? "\<C-p>" : "\<S-Tab>"
+imap     <expr> ]          pumvisible() ? "\<C-n>" : "\<Plug>delimitMate]"
+imap     <expr> [          pumvisible() ? "\<C-p>" : "\<Plug>delimitMate["
+inoremap <expr> <Tab>      pumvisible() ? "\<C-y>" : "\<Tab>"
 set completeopt+=longest
 
 " Spaces & Tabs
