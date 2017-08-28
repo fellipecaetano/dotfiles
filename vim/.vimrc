@@ -7,7 +7,7 @@ set showcmd
 
 " Completion menu
 inoremap <expr> <Esc>      pumvisible() ? "\<C-e>" : "\<Esc>"
-inoremap <expr> <CR>       pumvisible() ? "\<C-y>" : "\<CR>"
+imap <expr> <CR>       pumvisible() ? "\<C-y>" : "\<Plug>delimitMateCR"
 inoremap <expr> <Down>     pumvisible() ? "\<C-n>" : "\<Down>"
 inoremap <expr> <Up>       pumvisible() ? "\<C-p>" : "\<Up>"
 inoremap <expr> <PageDown> pumvisible() ? "\<PageDown>\<C-p>\<C-n>" : "\<PageDown>"
@@ -36,3 +36,7 @@ nnoremap <leader>w <C-w>v<C-w>l
 
 " Pathogen
 execute pathogen#infect()
+
+" delimitMate
+set backspace=2
+let delimitMate_expand_cr = 1
