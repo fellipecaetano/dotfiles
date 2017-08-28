@@ -1,12 +1,13 @@
-
 " UI Config
 set number " shows line
 set smartindent
 set relativenumber
 set visualbell
 set showcmd
+set hidden
 
 " Completion menu
+imap     <C-Space>         <C-x><C-u>
 inoremap <expr> <Esc>      pumvisible() ? "\<C-e>" : "\<Esc>"
 imap     <expr> <CR>       pumvisible() ? "\<C-y>" : "\<Plug>delimitMateCR"
 inoremap <expr> <Down>     pumvisible() ? "\<C-n>" : "\<Down>"
@@ -31,7 +32,7 @@ nnoremap <Tab> %
 vnoremap <Tab> %
 
 " Escape mappings
-inoremap jk <esc> " maps jk to <esc>
+inoremap jj <esc>
 
 " Windows
 nnoremap <leader>w <C-w>v<C-w>l
@@ -42,3 +43,10 @@ execute pathogen#infect()
 " delimitMate
 set backspace=2
 let delimitMate_expand_cr = 1
+
+" clang_complete
+let g:clang_library_path='/Users/fellipe/Developer/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib'
+let g:clang_auto_select=2
+let g:clang_complete_auto=0
+let g:clang_complete_copen=1
+let g:clang_close_preview=1
