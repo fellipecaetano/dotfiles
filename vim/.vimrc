@@ -14,6 +14,7 @@ nnoremap <leader>w <C-w>v<C-w>l
 nnoremap <leader>a ~
 vnoremap <leader>a ~
 nmap <leader>c viw<leader>a
+nnoremap <leader>x :w<CR>
 
 " Wildmode
 set wildmode=longest:full
@@ -48,8 +49,6 @@ vnoremap <Tab> %
 
 " Escape mappings
 inoremap jj <esc>
-
-" Windows
 
 " Pathogen
 execute pathogen#infect()
