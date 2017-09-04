@@ -1,5 +1,6 @@
 " Colors
-colorscheme base16-solarized-dark
+set background=light
+colorscheme solarized
 
 " UI Config
 set cursorline
