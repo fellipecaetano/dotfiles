@@ -34,9 +34,9 @@ inoremap <expr> <Tab> pumvisible() ? "\<C-y>" : "\<Tab>"
 set completeopt+=longest
 
 " Spaces & Tabs
-set shiftwidth=4
-set tabstop=4 " shows tabs as spaces
-set softtabstop=4 " inserts spaces when hitting <TAB>
+set shiftwidth=2
+set tabstop=2 " shows tabs as spaces
+set softtabstop=2 " inserts spaces when hitting <TAB>
 set expandtab " turns tabs into spaces
 
 " Searching
@@ -63,6 +63,21 @@ let g:clang_auto_select=2
 let g:clang_complete_auto=0
 let g:clang_complete_copen=1
 let g:clang_close_preview=1
+
+" the silver searcher
+if executable('ag')
+  " Use ag over grep
+  set grepprg=ag\ --nogroup\ --nocolor
+
+  " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+
+  " ag is fast enough that CtrlP doesn't need to cache
+  let g:ctrlp_use_caching = 0
+
+  command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
+  nnoremap \ :Ag<Space>
+endif
 
 " Filetypes
 autocmd BufReadPost fastlane/changelog set filetype=text
