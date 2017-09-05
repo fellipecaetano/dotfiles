@@ -23,7 +23,7 @@ export PATH=$HOME/dotfiles/git/bin:$PATH
 
 # Ruby
 if [ ! -f $(brew --prefix)/share/chruby/chruby.sh ]; then
-    brew install chruby
+  brew install chruby
 fi
 
 source $(brew --prefix)/share/chruby/chruby.sh
@@ -31,7 +31,7 @@ source $(brew --prefix)/share/chruby/auto.sh
 
 # Antigen
 if [ ! -f $(brew --prefix)/share/antigen/antigen.zsh ]; then
-    brew install antigen
+  brew install antigen
 fi
 
 source $(brew --prefix)/share/antigen/antigen.zsh
@@ -50,7 +50,7 @@ export EDITOR=vim
 
 # Node
 if [ ! -f $(brew --prefix)/opt/nvm/nvm.sh ]; then
-    brew install nvm
+  brew install nvm
 fi
 
 export NVM_DIR="$HOME/.nvm"
