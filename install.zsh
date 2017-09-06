@@ -2,6 +2,8 @@
 
 setopt EXTENDED_GLOB
 
-for rcfile in $(pwd)/prezto/runcoms/^README.md(.N); do
+ln -s $(pwd)/prezto "${ZDOTDIR:-$HOME}"/.zprezto
+
+for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
   ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
 done
