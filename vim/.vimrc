@@ -79,6 +79,10 @@ if executable('ag')
   nnoremap \ :Ag<Space>
 endif
 
+" ctrlp
+let g:ctrlp_working_path_mode = 'ra'
+
 " Filetypes
 autocmd BufReadPost fastlane/changelog set filetype=text
 autocmd BufReadPost fastlane/changelog set textwidth=78
+autocmd BufReadPost *.pl set filetype=prolog
