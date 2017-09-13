@@ -28,3 +28,6 @@
 [submodule "prezto"]
 	path = prezto
 	url = https://github.com/fellipecaetano/prezto
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree
