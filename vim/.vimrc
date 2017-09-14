@@ -83,8 +83,8 @@ endif
 let g:ctrlp_working_path_mode = 'ra'
 
 " NERDTree
-nnoremap <leader>t :NERDTreeToggle
-vnoremap <leader>t :NERDTreeToggle
+nnoremap <leader>t :NERDTreeToggle<CR>
+vnoremap <leader>t :NERDTreeToggle<CR>
 
 " Filetypes
 autocmd BufReadPost fastlane/changelog set filetype=text
