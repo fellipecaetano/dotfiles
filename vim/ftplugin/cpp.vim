@@ -5,7 +5,7 @@ function! FormatOnSave()
 endfunction
 
 map gq :pyf /Users/fellipe/dotfiles/clang-format.py<CR>
-autocmd BufWritePre *.h,*.cc,*.cpp call FormatOnSave()
+autocmd BufWritePre *.h,*.cc,*.cpp,*.c call FormatOnSave()
 
 " Folding
 setlocal foldmethod=syntax
