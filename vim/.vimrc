@@ -6,6 +6,7 @@ set visualbell
 set showcmd
 set hidden
 set list
+set textwidth=80
 
 " Leader shortcuts
 let mapleader=","
@@ -89,4 +90,4 @@ vnoremap <leader>t :NERDTreeToggle<CR>
 " Filetypes
 autocmd BufReadPost fastlane/changelog set filetype=text
 autocmd BufReadPost fastlane/changelog set textwidth=78
-autocmd BufReadPost *.pl set filetype=prolog
+autocmd BufReadPost Podfile set filetype=ruby
