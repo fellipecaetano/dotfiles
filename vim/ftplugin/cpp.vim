@@ -1,10 +1,10 @@
 " Formatting
 function! FormatOnSave()
-    let l:lines = "all"
-    pyf /Users/fellipe/dotfiles/clang-format.py
+  let l:lines = "all"
+  pyf $HOME/dotfiles/clang-format.py
 endfunction
 
-map gq :pyf /Users/fellipe/dotfiles/clang-format.py<CR>
+map gq :pyf $HOME/dotfiles/clang-format.py<CR>
 autocmd BufWritePre *.h,*.cc,*.cpp,*.c call FormatOnSave()
 
 " Folding
