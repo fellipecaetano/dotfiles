@@ -765,9 +765,9 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 139 606 456 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>2189 213 796 473 1920 70 1440 877 </string>
+	<string>2189 234 796 473 1920 70 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1920 70 1440 900 1920 70 1440 877 </string>
+	<string>0 0 1920 1080 0 0 1920 1057 </string>
 	<key>NeverWarnAboutMeta</key>
 	<true/>
 	<key>NeverWarnAboutMeta_selection</key>
@@ -1357,7 +1357,7 @@
 			<key>Rows</key>
 			<integer>25</integer>
 			<key>Screen</key>
-			<integer>1</integer>
+			<integer>-2</integer>
 			<key>Scrollback Lines</key>
 			<integer>1000</integer>
 			<key>Scrollback With Status Bar</key>
@@ -1606,7 +1606,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-09-22T18:09:44Z</date>
+	<date>2017-10-04T14:32:39Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
