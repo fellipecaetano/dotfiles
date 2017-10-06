@@ -7,6 +7,7 @@ set showcmd
 set hidden
 set list
 set textwidth=80
+set previewheight=24
 
 " Leader shortcuts
 let mapleader=","
