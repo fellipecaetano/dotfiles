@@ -34,3 +34,6 @@
 [submodule "vim/bundle/commentary"]
 	path = vim/bundle/commentary
 	url = https://github.com/tpope/vim-commentary
+[submodule "vim/bundle/unimpaired"]
+	path = vim/bundle/unimpaired
+	url = https://github.com/tpope/vim-unimpaired
