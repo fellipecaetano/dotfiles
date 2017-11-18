@@ -92,3 +92,6 @@ vnoremap <leader>t :NERDTreeToggle<CR>
 autocmd BufReadPost fastlane/changelog set filetype=text
 autocmd BufReadPost fastlane/changelog set textwidth=78
 autocmd BufReadPost Podfile set filetype=ruby
+
+" vim-rust
+let g:rustfmt_autosave = 1
