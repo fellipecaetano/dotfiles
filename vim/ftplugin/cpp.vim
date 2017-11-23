@@ -1,11 +1,6 @@
 " Formatting
-function! FormatOnSave()
-  let l:lines = "all"
-  pyf $HOME/dotfiles/clang-format.py
-endfunction
-
-map gq :pyf $HOME/dotfiles/clang-format.py<CR>
-autocmd BufWritePre *.h,*.cc,*.cpp,*.c call FormatOnSave()
+map gq :Autoformat<CR>
+autocmd BufWritePre *.h,*.cc,*.cpp,*.c :Autoformat
 
 " Folding
 setlocal foldmethod=syntax
