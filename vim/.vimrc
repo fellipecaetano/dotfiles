@@ -59,34 +59,14 @@ execute pathogen#infect()
 set backspace=2
 let delimitMate_expand_cr = 1
 
-" clang_complete
-let g:clang_library_path='/Users/fellipe/Developer/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib'
-let g:clang_auto_select=2
-let g:clang_complete_auto=0
-let g:clang_complete_copen=1
-let g:clang_close_preview=1
-
 " the silver searcher
 if executable('ag')
   " Use ag over grep
   set grepprg=ag\ --nogroup\ --nocolor
 
-  " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
-  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
-
-  " ag is fast enough that CtrlP doesn't need to cache
-  let g:ctrlp_use_caching = 0
-
   command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
   nnoremap \ :Ag<Space>
 endif
-
-" ctrlp
-let g:ctrlp_working_path_mode = 'ra'
-
-" NERDTree
-nnoremap <leader>t :NERDTreeToggle<CR>
-vnoremap <leader>t :NERDTreeToggle<CR>
 
 " Filetypes
 autocmd BufReadPost fastlane/changelog set filetype=text
