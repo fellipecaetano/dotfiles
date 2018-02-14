@@ -82,6 +82,9 @@ autocmd FileType html setlocal shiftwidth=2
 autocmd FileType markdown set textwidth=80
 autocmd FileType prolog set textwidth=80
 autocmd FileType ruby set makeprg="ruby"
+autocmd FileType swift setlocal tabstop=4
+autocmd FileType swift setlocal softtabstop=4
+autocmd FileType swift setlocal shiftwidth=4
 
 " vim-rust
 let g:rustfmt_autosave = 1

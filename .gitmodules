@@ -40,3 +40,6 @@
 [submodule "vim/bundle/vim-swift"]
 	path = vim/bundle/vim-swift
 	url = https://github.com/keith/swift.vim
+[submodule "vim/bundle/command-t"]
+	path = vim/bundle/command-t
+	url = https://github.com/wincent/command-t
