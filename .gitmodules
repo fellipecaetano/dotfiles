@@ -37,3 +37,6 @@
 [submodule "vim/bundle/vim-autoformat"]
 	path = vim/bundle/vim-autoformat
 	url = https://github.com/Chiel92/vim-autoformat
+[submodule "vim/bundle/vim-swift"]
+	path = vim/bundle/vim-swift
+	url = https://github.com/keith/swift.vim
