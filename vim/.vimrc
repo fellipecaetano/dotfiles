@@ -13,7 +13,7 @@ set previewheight=24
 let mapleader=","
 nnoremap <silent> <leader>s :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
 nnoremap <leader>w <C-w>v<C-w>l
-nnoremap <leader>a ~
+nnoremap <leader>a ~h
 vnoremap <leader>a ~
 nmap <leader>c viw<leader>a
 nnoremap <leader>x :w<CR>
@@ -72,6 +72,16 @@ endif
 autocmd BufReadPost fastlane/changelog set filetype=text
 autocmd BufReadPost fastlane/changelog set textwidth=78
 autocmd BufReadPost Podfile set filetype=ruby
+autocmd FileType c map gq :Autoformat<CR>
+autocmd FileType cpp map gq :Autoformat<CR>
+autocmd BufWritePre *.h,*.cc,*.cpp,*.c :Autoformat
+autocmd FileType crontab set backupcopy=yes
+autocmd FileType html setlocal tabstop=2
+autocmd FileType html setlocal softtabstop=2
+autocmd FileType html setlocal shiftwidth=2
+autocmd FileType markdown set textwidth=80
+autocmd FileType prolog set textwidth=80
+autocmd FileType ruby set makeprg="ruby"
 
 " vim-rust
 let g:rustfmt_autosave = 1
