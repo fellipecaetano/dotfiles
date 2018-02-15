@@ -7,9 +7,6 @@
 [submodule "vim/bundle/vim-sensible"]
 	path = vim/bundle/vim-sensible
 	url = https://github.com/tpope/vim-sensible
-[submodule "vim/bundle/delimitMate"]
-	path = vim/bundle/delimitMate
-	url = https://github.com/Raimondi/delimitMate
 [submodule "vim/bundle/fugitive"]
 	path = vim/bundle/fugitive
 	url = https://github.com/tpope/vim-fugitive
