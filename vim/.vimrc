@@ -68,6 +68,9 @@ if executable('ag')
   nnoremap \ :Ag<Space>
 endif
 
+" Command-T
+let g:CommandTFileScanner = 'git'
+
 " Filetypes
 autocmd BufReadPost fastlane/changelog set filetype=text
 autocmd BufReadPost fastlane/changelog set textwidth=78
