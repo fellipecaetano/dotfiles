@@ -40,3 +40,9 @@
 [submodule "vim/bundle/command-t"]
 	path = vim/bundle/command-t
 	url = https://github.com/wincent/command-t
+[submodule "vim/bundle/vim-jsx"]
+	path = vim/bundle/vim-jsx
+	url = https://github.com/mxw/vim-jsx
+[submodule "vim/bundle/vim-javascript"]
+	path = vim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript
