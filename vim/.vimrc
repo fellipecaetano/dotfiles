@@ -31,6 +31,8 @@ set expandtab " turns tabs into spaces
 let mapleader=","
 nnoremap <silent> <leader>s :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
 nnoremap <leader>x :w<CR>
+nnoremap <leader>c :nohlsearch<CR>
+nnoremap <leader>a g~iw
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " COMPLETION MENU
@@ -144,10 +146,15 @@ let g:rustfmt_autosave = 1
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " VIM-PRETTIER
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:prettier#config#single_quote = 'false'
+let g:prettier#config#single_quote = 'true'
 let g:prettier#config#bracket_spacing = 'true'
 let g:prettier#config#jsx_bracket_same_line = 'false'
 let g:prettier#config#arrow_parens = 'avoid'
 let g:prettier#config#trailing_comma = 'none'
 let g:prettier#config#parser = 'babylon'
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" VIM-JSX
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:jsx_ext_required = 0
 
