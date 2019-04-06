@@ -33,6 +33,7 @@ nnoremap <silent> <leader>s :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar>
 nnoremap <leader>x :w<CR>
 nnoremap <leader>c :nohlsearch<CR>
 nnoremap <leader>a g~iw
+nnoremap <leader>z :CommandT<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " COMPLETION MENU
@@ -137,6 +138,7 @@ autocmd FileType ruby set makeprg="ruby"
 autocmd FileType swift setlocal tabstop=4
 autocmd FileType swift setlocal softtabstop=4
 autocmd FileType swift setlocal shiftwidth=4
+autocmd FileType swift set textwidth=150
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " VIM-RUST
